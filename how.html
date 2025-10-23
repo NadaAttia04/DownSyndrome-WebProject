@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How to Deal with a Child with Down Syndrome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            text-align: left;
+        }
+        header {
+            background-color: #ffb3b3;
+            color: #333;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        .language-selector {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+        .language-selector button {
+            background-color: #b0e0e6;
+            color: #333;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .language-selector button:hover {
+            background-color: #87ceeb;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto; /* Align image to the center */
+            display: block;  /* Make the image a block element */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 id="page-title">How to Deal with a Child with Down Syndrome</h1>
+    </header>
+
+    <div class="language-selector">
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('ar')">العربية</button>
+    </div>
+
+    <section id="content">
+       
+        <!-- إضافة الصورة هنا -->
+        <img src="C:/Users/Nada/Desktop/how.jpeg" alt="Child with Down Syndrome">
+
+        <ul id="tips-list">
+            <li>Accept the child for who they are and make them feel like they are a normal child, just like everyone else, which helps build self-confidence.</li>
+            <li>Discover the child's strengths and talents to facilitate communication and integration with peers, while developing their abilities.</li>
+            <li>Identify the child's weaknesses and areas of difficulty to create an appropriate program to improve behavior and cognitive skills.</li>
+            <li>Consistently apply the same treatment approach and avoid making the child feel that they have any disability. This will help them gain confidence and adapt better to social situations.</li>
+            <li>Recognize the child’s preferences and dislikes to avoid potential issues and deal with them in the way they prefer.</li>
+            <li>Avoid rushing to interpret their behavior. Misunderstanding can lead to incorrect responses and impact their ability to interact socially.</li>
+            <li>Be patient, as some children with Down syndrome are slow to respond, requiring extra effort in teaching and modifying behavior.</li>
+            <li>Focus on specialized educational programs to develop cognitive skills, enhance self-confidence, and improve relationships with society.</li>
+            <li>Encourage integration with society and avoid isolating the child, as this will develop their communication skills and reduce the chances of becoming socially withdrawn.</li>
+            <li>Train caregivers and others around the child to better understand their condition and how to help them develop their skills.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 How to Deal with a Child with Down Syndrome</p>
+    </footer>
+
+    <script>
+        function changeLanguage(language) {
+            if (language === 'ar') {
+                // Change to Arabic
+                document.documentElement.lang = 'ar';
+                document.body.style.textAlign = 'right';
+                document.body.style.direction = 'rtl';
+
+                // Change texts to Arabic
+                document.getElementById('page-title').innerText = 'كيفية التعامل مع طفل متلازمة داون';
+              
+                document.getElementById('tips-list').innerHTML = `
+                    <li>على الأسرة تقبل الطفل بحالته الخاصة بين أفرادها وإشعاره أنه طفل عادي لا يختلف عن الآخرين مع عدم الشعور بأي حرج تجاه وجوده بين الناس مما يدعم ثقته بنفسه ويتيح له التعامل أكثر مع المجتمع.</li>
+                    <li>اكتشاف مميزات ومواهب الطفل المصاب بمتلازمة داون يسهل من عملية التواصل معه ودمجه مع الآخرين من أقرانه مع تطوير قدراته وإمكاناته.</li>
+                    <li>معرفة نقاط الضعف وعيوب شخصية الطفل المنغولي تساهم في وضع البرنامج الصحيح لتعديل سلوكه وتحسين قدراته الذهنية والاجتماعية.</li>
+                    <li>التعامل مع الطفل المنغولي بصورة ثابتة دون تغيير طريقة المعاملة وعدم إشعاره أنه يعاني من أي خلل، خاصة أن ذلك يساهم في سرعة ثقته فيمن حوله وتكيفه مع المجتمع الخارجي والتواصل بشكل أفضل.</li>
+                    <li>التعرف على الأشياء المحببة للطفل المصاب بمتلازمة داون والأشياء التي يرفضها لتجنب إصابته بأي مشاكل والتعامل معه بالطريقة التي يفضلها.</li>
+                    <li>عدم التسرع في تفسير سلوك الطفل المنغولي حيث أن تفسير سلوكهم بشكل خاطئ يجعلنا نسيء التعامل معه مما يؤثر عليه في الاندماج والثقة مع من حوله أو استيعاب الصحيح من الخاطئ.</li>
+                    <li>الصبر في التعامل مع الطفل المنغولي حيث أن بعضهم بطيء الاستجابة مما يتطلب المزيد من الجهد لتعليمه وتعديل سلوكه.</li>
+                    <li>التركيز على البرامج التعليمية المخصصة لتأهيل طفل متلازمة داون مما يعمل على صقل قدراته الذهنية وتحسين ثقته بنفسه وتطوير علاقته بالمجتمع.</li>
+                    <li>دمج الطفل المنغولي مع المجتمع وعدم عزله عن الناس مما يكسبه المزيد من الخبرات وينمي قدرته على التواصل مع الآخرين حتى لا يصبح انطوائيًا وغير متفاعل مع البيئة المحيطة به.</li>
+                    <li>تدريب المحيطين بالطفل وتلقيهم توعية خاصة للتعامل مع الطفل المصاب بمتلازمة داون مما يساعدهم على فهمه بشكل أفضل وتقدير الحالة الخاصة التي يمر بها مما ينعكس على شخصيته وتطوير مهاراته.</li>
+                `;
+            } else {
+                // Change to English
+                document.documentElement.lang = 'en';
+                document.body.style.textAlign = 'left';
+                document.body.style.direction = 'ltr';
+
+                // Change texts back to English
+                document.getElementById('page-title').innerText = 'How to Deal with a Child with Down Syndrome';
+                document.getElementById('section-title').innerText = 'How to Deal with a Child with Down Syndrome (English)';
+                document.getElementById('tips-list').innerHTML = `
+                    <li>Accept the child for who they are and make them feel like they are a normal child, just like everyone else, which helps build self-confidence.</li>
+                    <li>Discover the child's strengths and talents to facilitate communication and integration with peers, while developing their abilities.</li>
+                    <li>Identify the child's weaknesses and areas of difficulty to create an appropriate program to improve behavior and cognitive skills.</li>
+                    <li>Consistently apply the same treatment approach and avoid making the child feel that they have any disability. This will help them gain confidence and adapt better to social situations.</li>
+                    <li>Recognize the child’s preferences and dislikes to avoid potential issues and deal with them in the way they prefer.</li>
+                    <li>Avoid rushing to interpret their behavior. Misunderstanding can lead to incorrect responses and impact their ability to interact socially.</li>
+                    <li>Be patient, as some children with Down syndrome are slow to respond, requiring extra effort in teaching and modifying behavior.</li>
+                    <li>Focus on specialized educational programs to develop cognitive skills, enhance self-confidence, and improve relationships with society.</li>
+                    <li>Encourage integration with society and avoid isolating the child, as this will develop their communication skills and reduce the chances of becoming socially withdrawn.</li>
+                    <li>Train caregivers and others around the child to better understand their condition and how to help them develop their skills.</li>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

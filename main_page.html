@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Down Syndrome</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f2f2;
+            color: #444;
+        }
+
+        header {
+            background-color: #ff99cc;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #ff6699;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('file:///C:/Users/Nada/Desktop/DownSyndrome_share.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            background-color: #fff0f5;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #ff99cc;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .language-switch {
+            text-align: right;
+            margin: 1rem;
+        }
+
+        button {
+            background-color: #ff6699;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff3366;
+        }
+    </style>
+    <script>
+        function switchLanguage(lang) {
+            document.documentElement.lang = lang;
+            document.querySelectorAll('.en, .ar').forEach(element => {
+                element.style.display = element.classList.contains(lang) ? 'block' : 'none';
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="language-switch">
+        <button onclick="switchLanguage('en')">English</button>
+        <button onclick="switchLanguage('ar')">العربية</button>
+    </div>
+    <header>
+        <h1 class="en">Down Syndrome</h1>
+        <h1 class="ar" style="display:none;">متلازمة داون</h1>
+        <p class="en">Learn comprehensive information about Down Syndrome, symptoms, history, and treatment.</p>
+        <p class="ar" style="display:none;">تعرف على المعلومات الشاملة حول متلازمة داون، الأعراض، التاريخ، والعلاج.</p>
+    </header>
+    <nav>
+        <a href="#about" class="en">About</a>
+        <a href="#history" class="en">History</a>
+
+        <a href="#about" class="ar" style="display:none;">عن المتلازمة</a>
+        <a href="#history" class="ar" style="display:none;">التاريخ</a>
+    </nav>
+    <nav>
+        <a href="how.html" class="en">How to Deal </a>
+        <a href="sympotims.html" class="en">Symptoms</a>
+        <a href="types.html" class="en">Types</a>
+        <a href="tretment1.html" class="en">Treatment</a>
+        <a href="success.html" class="en">Success Stories</a>
+
+        <a href="how.html" class="ar" style="display:none;">كيف يعمل</a>
+        <a href="symptoms.html" class="ar" style="display:none;">الأعراض</a>
+        <a href="types.html" class="ar" style="display:none;">الأنواع</a>
+        <a href="tretment1.html" class="ar" style="display:none;">العلاج</a>
+        <a href="success.html" class="ar" style="display:none;">قصص النجاح</a>
+
+    </nav>
+    <section class="hero">
+        <div class="en">We are here to support individuals with Down Syndrome and their families</div>
+        <div class="ar" style="display:none;">نحن هنا لدعم الأفراد المصابين بمتلازمة داون وأسرهم</div>
+    </section>
+    <div class="container">
+    </section>
+    <div class="container">
+        <section id="about" class="section">
+            <h2 class="en">About</h2>
+            <h2 class="ar" style="display:none;">عن المتلازمة</h2>
+            <p class="en">Down syndrome is a genetic disorder caused by the presence of an extra copy of chromosome 21, leading to delayed physical development, mild to moderate intellectual disabilities, and distinctive facial features. The average IQ of an adult with Down syndrome is around 50, similar to the cognitive abilities of an 8- or 9-year-old child, although this varies widely among individuals. Some characteristics of Down syndrome, such as a small chin or a large tongue, may also appear in non-affected individuals. Children with Down syndrome are at a higher risk of conditions like thyroid disorders, ear infections, and gastroesophageal reflux. Early intervention, medical care, and supportive environments can enhance their overall development and quality of life. While some genetic limitations remain unchanged, appropriate education and care can significantly improve their well-being.</p>
+            <p class="ar" style="display:none;">متلازمة داون هي اضطراب جيني ناتج عن وجود نسخة إضافية من الكروموسوم 21، مما يؤدي إلى تأخر في النمو الجسدي، إعاقات ذهنية خفيفة إلى متوسطة، وملامح وجهية مميزة. معدل الذكاء للشخص البالغ المصاب يتراوح حول 50، ما يعادل مستوى إدراك طفل في الثامنة أو التاسعة، مع تفاوت كبير بين الأفراد. قد تظهر صفات متلازمة داون لدى أشخاص غير مصابين، مثل صغر الذقن أو كبر حجم اللسان. الأطفال المصابون معرضون لأمراض مثل اضطرابات الغدة الدرقية والتهاب الأذن. ينصح بالتدخل المبكر، الكشف الطبي، والرعاية المناسبة لتحسين جودة حياتهم ودعم تطورهم الشامل.</p>
+        </section>
+        <section id="history" class="section">
+            <h2 class="en">History</h2>
+            <h2 class="ar" style="display:none;">التاريخ</h2>
+            <p class="en">Down syndrome is named after British physician John Langdon Down, who first described it in 1862. He initially called it "Mongolian idiocy" due to his belief that children with Down syndrome resembled the Mongoloid race, based on racial theories of that era. This term persisted until the late 20th century when such ideas were discredited. In 1959, Jérôme Lejeune discovered that Down syndrome is caused by an extra copy of chromosome 21. Marthe Gautier also contributed to this discovery, and her role was recognized in 2014.</p>
+            <p class="ar" style="display:none;">متلازمة داون سُمّيت نسبة إلى الطبيب البريطاني جون لانغدون داون، الذي وصفها لأول مرة عام 1862. أطلق عليها اسم "المنغولية" بسبب اعتقاده أن الأطفال المصابين بمتلازمة داون يشبهون العرق المنغولي في ملامح الوجه، وفقاً للنظريات العرقية السائدة آنذاك. استمر هذا المصطلح حتى أواخر القرن العشرين عندما تم دحض هذه الأفكار. في عام 1959، اكتشف جيروم لوجين أن متلازمة داون ناتجة عن وجود نسخة إضافية من الكروموسوم 21. ساهمت مارت غوتييه أيضاً في هذا الاكتشاف، وتم الاعتراف بدورها في عام 2014.</p>
+        </section>

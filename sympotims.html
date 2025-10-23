@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Down Syndrome Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa; /* لون خلفية فاتح */
+            color: #333; /* لون النصوص أسود غامق لسهولة القراءة */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f1daec; /* لون رأس الصفحة */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #e9799c; /* تمييز الحدود السفلية */
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #33bbe1; /* لون العناوين */
+        }
+        .language-buttons {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .language-buttons button {
+            background-color: #4caf50; /* زر بلون أخضر فاتح */
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .language-buttons button:hover {
+            background-color: #388e3c; /* زر يتحول إلى لون أخضر داكن عند التمرير */
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        img {
+            max-width: 100%; /* يجعل الصورة تتناسب مع عرض العنصر */
+            height: auto; /* يحافظ على نسبة الطول إلى العرض */
+            border-radius: 10px; /* زوايا مدورة للصورة */
+            margin-bottom: 20px; /* مساحة أسفل الصورة */
+        }
+    </style>
+    <script>
+        function toggleLanguage(language) {
+            document.querySelectorAll('.content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById(language).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>متلازمة داون | Down Syndrome</h1>
+    </header>
+    <main>
+        <div class="language-buttons">
+            <button onclick="toggleLanguage('arabic')">عربي</button>
+            <button onclick="toggleLanguage('english')">English</button>
+        </div>
+        <div id="arabic" class="content active">
+            <section>
+                <h2>أعراض متلازمة داون</h2>
+                <img src="C:/Users/Nada/Desktop/3.jpeg"alt="صورة توضح متلازمة داون">
+                <p>أعراض متلازمة داون تختلف من شخص لآخر، ولكن هناك مجموعة من الأعراض المشتركة التي يمكن ملاحظتها في الأشخاص الذين يعانون من هذه المتلازمة. تشمل الأعراض الجسدية، السلوكية، والعقلية.</p>
+                <h3>الأعراض الجسدية:</h3>
+                <ul>
+                    <li>العيون المائلة (توجيه العينين نحو الأعلى).</li>
+                    <li>الأنف المسطح.</li>
+                    <li>اللسان البارز، والذي قد يكون أوسع من المعتاد.</li>
+                    <li>الشفتين الرقيقة.</li>
+                    <li>الذقن الصغيرة.</li>
+                </ul>
+                <h3>التأخر في النمو الجسدي:</h3>
+                <ul>
+                    <li>انخفاض في الوزن والطول مقارنة بالأطفال في نفس العمر.</li>
+                    <li>قوة العضلات المنخفضة (Hypotonia)، مما يجعل الشخص أكثر مرونة.</li>
+                </ul>
+                <h3>اليدين والقدمين:</h3>
+                <ul>
+                    <li>راحة يد مسطحة مع خط يد واحد (خط يد أفقي غير متشعب).</li>
+                    <li>الأصابع قصيرة وفجوات واسعة بين أصابع القدم.</li>
+                    <li>الأظافر الصغيرة.</li>
+                </ul>
+                <h3>المشاكل الصحية:</h3>
+                <ul>
+                    <li>مشاكل في القلب، مثل العيوب الخلقية في القلب.</li>
+                    <li>مشاكل في السمع أو التهاب الأذن المتكرر.</li>
+                    <li>مشاكل في العين، مثل الحول أو ضعف البصر.</li>
+                </ul>
+            </section>
+        </div>
+        <div id="english" class="content">
+            <section>
+                <h2>Symptoms of Down Syndrome</h2>
+                <img src="C:/Users/Nada/Desktop/3.jpeg"alt="Image illustrating Down Syndrome">
+                <p>Symptoms of Down Syndrome vary from person to person, but there are common symptoms that can be observed in individuals with this condition. These include physical, behavioral, and mental symptoms.</p>
+                <h3>Physical Symptoms:</h3>
+                <ul>
+                    <li>Upward-slanting eyes.</li>
+                    <li>Flat nasal bridge.</li>
+                    <li>Protruding tongue, which may be wider than usual.</li>
+                    <li>Thin lips.</li>
+                    <li>Small chin.</li>
+                </ul>
+                <h3>Delayed Physical Growth:</h3>
+                <ul>
+                    <li>Lower weight and height compared to peers of the same age.</li>
+                    <li>Low muscle tone (Hypotonia), making the person more flexible.</li>
+                </ul>
+                <h3>Hands and Feet:</h3>
+                <ul>
+                    <li>Flat palms with a single crease (horizontal crease).</li>
+                    <li>Short fingers and wide gaps between toes.</li>
+                    <li>Small nails.</li>
+                </ul>
+                <h3>Health Problems:</h3>
+                <ul>
+                    <li>Heart problems, such as congenital heart defects.</li>
+                    <li>Hearing problems or recurrent ear infections.</li>
+                    <li>Eye problems, such as strabismus or poor vision.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
