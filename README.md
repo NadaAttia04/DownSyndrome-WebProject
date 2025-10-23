@@ -8,7 +8,7 @@ A complete awareness and support website about Down Syndrome: symptoms, types, c
 A complete awareness website about **Down Syndrome**, including symptoms, types, treatment methods, and real-life stories for motivation and support.  
 The project provides educational content, images, and interactive HTML pages designed to raise awareness and encourage understanding.
 
----
+----
 
 ## 🌟 Project Features
 - 📖 Informative HTML pages covering **Down Syndrome**, its **symptoms**, **types**, and **treatment**.  
