@@ -3,7 +3,6 @@ A complete awareness and support website about Down Syndrome: symptoms, types, c
 <img width="1916" height="912" alt="image" src="https://github.com/user-attachments/assets/60535102-f933-4f0a-b05f-82474ebd8001" />
 <img width="1917" height="908" alt="image" src="https://github.com/user-attachments/assets/b65d6e56-340d-4266-86d0-ce3e98f418f4" />
 
-
 ## 📝 Short Description
 A complete awareness website about **Down Syndrome**, including symptoms, types, treatment methods, and real-life stories for motivation and support.  
 The project provides educational content, images, and interactive HTML pages designed to raise awareness and encourage understanding.
