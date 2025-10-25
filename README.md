@@ -1,5 +1,5 @@
 # DownSyndrome-WebProject
-A complete awareness and support website about Down Syndrome: symptoms, types, care, treatment, and inspiring stories for parents and families.
+A complete awareness and support website about Down Syndrome: symptoms, types, care, treatment, and inspiring stories for parents and families
 <img width="1916" height="912" alt="image" src="https://github.com/user-attachments/assets/60535102-f933-4f0a-b05f-82474ebd8001" />
 <img width="1917" height="908" alt="image" src="https://github.com/user-attachments/assets/b65d6e56-340d-4266-86d0-ce3e98f418f4" />
 
